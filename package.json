@@ -1,10 +1,9 @@
 {
-  "name": "@deephaven/js-plugin-template",
+  "name": "@deephaven/js-plugin-table-example",
   "version": "0.1.0",
-  "description": "Deephaven plugin template",
+  "description": "Deephaven JS Plugin Table example",
   "keywords": [
     "Deephaven",
-    "matplotlib",
     "plugin"
   ],
   "author": "Deephaven Data Labs LLC",
