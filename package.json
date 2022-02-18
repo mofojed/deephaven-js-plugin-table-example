@@ -1,7 +1,7 @@
 {
-  "name": "@deephaven/js-plugin-dashboard-object-viewer",
+  "name": "@deephaven/js-plugin-table-example",
   "version": "0.1.1",
-  "description": "Deephaven JS Plugin Dashboard Object Viewer",
+  "description": "Deephaven JS Plugin Table Example",
   "keywords": [
     "Deephaven",
     "plugin"
