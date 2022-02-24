@@ -22,23 +22,13 @@ npm run build
 
 Your output will be in `dist/index.js`
 
-## Installing the Plugin Module
-
-TODO: Need both dev and production installation instructions
-
-## Plugin Types
-
-A module can optionally export one or more of the following types of plugins.
-
-### Dashboard Plugin (`DashboardPlugin`)
-
-Export a `DashboardPlugin` from the module to register a Dashboard Plugin. Dashboard Plugins can listen for and emit events on a Dashboard, register their own type of components for display in a Dashboard, and display their own UI overtop of a Dashboard.
-
-### Table Plugin (`TablePlugin`)
+## Usage
 
 Set the `PLUGIN_NAME` attribute on the Table with the name of the plugin.
 
 ```
 t = emptyTable(5).update("X=i")
-t.setAttribute("PluginName", "@deephaven/js-plugin-template")
+t.setAttribute("PluginName", "@deephaven/js-plugin-table-example")
 ```
+
+The table will then open up, with the "Example Plugin" shown across the top, and options in the context menu.
